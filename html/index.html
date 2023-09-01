@@ -1,0 +1,32 @@
+<html>
+	<head>
+        <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<div id="container">
+            <form id="form">
+                <h1>POLISMYNDIGHETENS TJÄNSTEFELSANMÄLAN</h1><br>
+                <label>Din discord ex: brandstation#0210</label><br>
+                <input type="text" id="discord"><br>
+                <label>Person som rappoteras ex: Rami Flock, brandstation#0210 (du får använda både discord och ingame namn)</label>
+                <input type="text" id="report"><br>
+                <label>Brott som anmäls ex: Tjänstefel, Tjänstevapen ur tjänst</label><br>
+                <input type="text" id="brott" value="Tjänstefel"><br>
+                <label>Händelseförlopp (Förklara vad som hände)</label><br>
+                <textarea name="happend" id="happend" cols="30" rows="10"></textarea>
+
+                <a id="submit" href="#" class="btn-large waves-effect waves-light">Skicka in</a>
+                <p class="rami">Rapporter hanteras av Rami Flock (Rikspolischefen)</p>
+                <p class="rami2">Det kan dröja innan du får svar på din rapport</p>
+                <a id="close" href="#" class="btn-large waves-effect waves-light">STÄNG</a>
+            </form>
+		</div>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+        <script src="./script.js" type="text/javascript"></script> 
+	</body>
+</html>

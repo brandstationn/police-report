@@ -1,0 +1,95 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(12, 13, 53);
+    height: 750px;
+    width: 1200px;
+    /* border: 2px solid aliceblue; */
+    border-radius: 7px;
+    box-shadow: rgb(29, 26, 26)000 2px 20px 3px;
+    background-image: url(https://kalmar.se/images/18.364737c6173fe910fbb18e/1597914913434/Polisen%20liggande%20utan%20bakgrund.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y:  640px;
+}
+
+input {
+    width: 139px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+    text-align: center;
+    position: relative;
+    right: 70px;
+}
+
+textarea {
+    position: relative;
+    top: 10px;
+    width: 1150px;
+    height: 284px;
+    border-radius: 10px;
+    border-color: #ccc;
+    outline: 20px;
+    color: white;
+    resize: none;
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rami {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.rami2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#submit {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 40px;
+    right: 25px;
+}
+
+#close {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
